@@ -25,13 +25,13 @@ Initialize a new Node.js project within your directory:
 
 This creates a `package.json` file in your project directory.
 
-npm init -y
+`npm init -y`
 
 ### 3. Install tmi.js
 
 Install the tmi.js package using npm:
 
-npm install tmi.js
+`npm install tmi.js`
 
 ### 4. Register your Application
 
