@@ -16,7 +16,7 @@ The documentation for this configuration is detailed in [Twitch Chat Bot Getting
 
 ### 1. Create a Project Directory
 
-Open a terminal and create a new directory for your project, then navigate into it:
+Open a terminal and create a new directory for your project, then navigate into it. Or, clone this repo, and start there.
 
 
 ### 2. Initialize Node Project
@@ -44,9 +44,11 @@ You will need your Twitch application's Client ID and Secret to move forward.
 It is recommended you leverage the [Twitch CLI](https://dev.twitch.tv/docs/cli/) for generating your OAUTH token.
 
 After installing the Twitch CLI, the following command reference will help you generate your token:
+
 `twitch token --client-id $my_client_id -s "chat:read chat:edit" -u`
 
 ### 6. Run your bot
 
 After updating the "chatbot.js" code to meet your needs, including adding the token generated in the last step, use the following to run your bot:
+
 `node chatbot.js`
