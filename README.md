@@ -1,7 +1,4 @@
-# simple-twitch-chatbot
-simple-twitch-chatbot
-
-# Twitch Chatbot Setup Guide
+# simple-twitch-chatbot Setup Guide
 
 This guide outlines the steps to set up a Twitch chatbot using Node.js and the tmi.js library, aimed at developers with basic JavaScript and command-line knowledge.
 
